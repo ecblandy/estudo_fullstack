@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgba(39, 37, 37, 0.7);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 20%;
+}
+
+label {
+    color: white;
+}
+
+label,
+button {
+    margin-top: 20px;
+}
+
+button {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 50px;
+    border-radius: 3px;
+    border: none;
+}
+
+button:hover {
+    background-color: blue;
+}
